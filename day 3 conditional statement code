@@ -1,0 +1,26 @@
+DAY 3 CODE 
+TOPIC CONDITIONAL STATEMENT
+Task
+Given an integer, , perform the following conditional actions:
+
+If  is N odd, print Weird
+If  is N even and in the inclusive range of 2 to5 , print Not Weird
+If  is  N even and in the inclusive range of  6to20 , print Weird
+If  is  N even and greater than 20 , print Not Weird
+
+
+import math
+import os
+import random
+import re
+import sys
+if __name__ == '__main__':
+ N = int(input().strip())
+ if  N % 2== 1:
+  print('Weird')
+ elif N<5:
+  print('not Weird')
+ elif N <= 20:
+  print('Weird')
+ else:
+  print('Not Weird')
