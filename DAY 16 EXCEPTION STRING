@@ -1,0 +1,15 @@
+Task
+Read a string, ,S and print its integer value; if   Scannot be converted to an integer, print Bad String.
+                            CODE
+                            
+
+import sys
+
+
+S = input().strip()
+
+try:
+    integer_value = int(S)
+    print(integer_value)
+except ValueError:
+    print('Bad String')
